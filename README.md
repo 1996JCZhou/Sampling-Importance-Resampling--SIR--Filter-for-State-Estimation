@@ -29,6 +29,16 @@ Please read [the tutorial paper](https://www.mdpi.com/1424-8220/21/2/438) for mo
 
 ## Results
 
-Filter for state estimation: SIR-Filter + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Particle Initialization with initial robot state.
+1. Filter for state estimation: SIR-Filter +
+   Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) +
+   Particle Initialization with initial robot state.
 
-[![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/world.PNG)](https://www.youtube.com/watch?v=DuiE1aSiS5E)
+   Please check my video for this filter under https://www.youtube.com/watch?v=DuiE1aSiS5E.
+
+   [![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/youtube2.PNG)](https://www.youtube.com/watch?v=DuiE1aSiS5E)
+
+3. Filter for state estimation: SIR-Filter + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Random particle Initialization without prior robot state knowledge.
+
+   Please check my video for this filter under https://www.youtube.com/watch?v=3K34nm6k5rg.
+
+   [![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/youtube2.PNG)](https://www.youtube.com/watch?v=3K34nm6k5rg)
