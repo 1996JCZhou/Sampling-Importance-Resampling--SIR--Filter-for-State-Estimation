@@ -26,3 +26,9 @@ Importance Sampling → [Sequence Importance Sampling Filter (SIS Filter) / Basi
 2. [How to resample](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/resampling_algos.py) → 3 Strategies: Multinomial Sampling, Stratified Sampling and Systematic Sampling.
 
 Please read [the tutorial paper](https://www.mdpi.com/1424-8220/21/2/438) for more details and check [my notes](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/tree/master/Notes) as well. :)
+
+## Results
+
+Filter for state estimation: SIR-Filter + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Particle Initialization with initial robot state.
+
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
