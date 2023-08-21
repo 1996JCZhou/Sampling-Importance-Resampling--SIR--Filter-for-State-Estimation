@@ -16,11 +16,11 @@ The state estimation problem can be addressed by the particle filter as a Bayesi
 
 ## My learning process
 
-Importance Sampling → Sequence Importance Sampling Filter (SIS Filter) / Basic Particle Filter
+Importance Sampling → [Sequence Importance Sampling Filter (SIS Filter) / Basic Particle Filter](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_base.py)
 
-Basic Particle Filter → Basic Particle Filter + Resampling: To solve particle degeneracy problem
+[Sequence Importance Sampling Filter (SIS Filter) / Basic Particle Filter](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_base.py) → [Basic Particle Filter + Resampling](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_sir.py): To solve particle degeneracy problem
 
-Basic Particle Filter + Resampling → Basic Particle Filter + Resampling:
+[Basic Particle Filter + Resampling](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_sir.py) → Basic Particle Filter + Resampling:
 
 1. When to resample → 3 Strategies: [Resampling every step](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_sir.py), [Max Weight Resampling](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_max_weight_resampling.py) and [Number of Effective Particles Resampling](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_nepr.py);
 2. [How to resample](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/resampling_algos.py) → 3 Strategies: Multinomial Sampling, Stratified Sampling and Systematic Sampling.
