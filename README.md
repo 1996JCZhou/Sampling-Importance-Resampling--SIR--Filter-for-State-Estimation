@@ -14,6 +14,16 @@ The state estimation problem can be addressed by the particle filter as a Bayesi
 
 ![image](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/result.PNG)
 
+## Requirements
+
+- python
+- matplotlib
+- time
+- random
+- numpy
+- abc
+- copy
+
 ## My learning process
 
 Importance Sampling → [Sequence Importance Sampling Filter (SIS Filter) / Basic Particle Filter](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_base.py)
