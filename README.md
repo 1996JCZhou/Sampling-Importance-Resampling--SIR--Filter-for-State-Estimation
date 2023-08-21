@@ -20,4 +20,4 @@ Importance Sampling → Sequence Importance Sampling Filter (SIS Filter) / Basic
 
 Basic Particle Filter → Basic Particle Filter + Resampling: To solve particle degeneracy problem
 
-Basic Particle Filter + Resampling → Basic Particle Filter + Resampling: 1. When to resample; 2. [How to resample](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/resampling_algos.py).
+Basic Particle Filter + Resampling → Basic Particle Filter + Resampling: 1. When to resample ([Max Weight Resampling (MWR)](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_max_weight_resampling.py), [Number of Effective Particles Resampling (NEPR)](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/particle_filter_nepr.py)); 2. [How to resample](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/resampling_algos.py).
