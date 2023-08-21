@@ -1,4 +1,4 @@
-# Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation
+# Sampling Importance Resampling (SIR) Filter for State Estimation
 
 ## Introduction
 
@@ -6,9 +6,13 @@ In the realm of state estimation, I've delved into recursivly tracking the evolv
 
 At its core, particle filtering operates from a Bayesian standpoint. The state vector is treated as a random variable, and a probability distribution, known as belief, encapsulates the estimate's uncertainty. Employing Bayes'theorem, belief is refined based on prior estimates and incoming measurements.
 
-Effective state estimation hinges on two critical sources: a process model that contains prior knowledge about state evolution and a measurement model that correlates measurements with the state. These sources are formalized using mathematical models, often nonlinear in nature. To exemplify these concepts, I've chosen a robot localization example from [Particle Filters: A Hands-On Tutorial](https://www.mdpi.com/1424-8220/21/2/438) as my guiding problem. The scenario involves a robot navigating a 2D world, with the state vector encompassing the robot's 2D position in an x-y coordinate system measured in meters and its orientation in radians. This orientation, also referred to as the heading angle, guides the robot's movements between four detected landmarks, where it is assumed to advance a specific distance and then rotate an angle.
+Effective state estimation hinges on two critical sources: a process model that contains prior knowledge about state evolution and a measurement model that correlates measurements with the state. These sources are formalized using mathematical models, often nonlinear in nature. To exemplify these concepts, I've chosen a robot localization example from [Particle Filters: A Hands-On Tutorial](https://www.mdpi.com/1424-8220/21/2/438) as my guiding problem. The scenario involves a robot navigating a 2D world, with the state vector encompassing the robot's 2D position in an x-y coordinate system measured in meters and its orientation in radians. This orientation, also referred to as the heading angle, guides the robot's movements between four detected landmarks, where it is assumed to advance a specific distance and then rotate an angle. The green circle represents the 2D robot position, the green line within the circle represents the robot’s heading, the blue rectangles represent the landmarks.
+
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%202.PNG)
 
 The state estimation problem can be addressed by the particle filter as a Bayesian estimation problem. This technique approximates the posterior probability distribution function (pdf) with a discrete pdf, ensuring minimal constraints on the underlying models. With prediction and filtering steps accomplished, the expected value vector from this discrete distribution over 3000 particles becomes the representative estimate of the robot's pose.
+
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%202.PNG)
 
 ## My learning process
 
