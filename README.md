@@ -39,14 +39,18 @@ Please read [the tutorial paper](https://www.mdpi.com/1424-8220/21/2/438) for mo
 
 ## Results
 
-1. Filter for state estimation: **SIR-Filter + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) +
+1. Filter for state estimation:
+
+   **SIR-Filter (Condensation Filter) + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) +
    Particle Initialization with initial robot state**.
 
    Please check my video for this filter under https://www.youtube.com/watch?v=DuiE1aSiS5E.
 
    [![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/youtube2.PNG)](https://www.youtube.com/watch?v=DuiE1aSiS5E)
 
-3. Filter for state estimation: **SIR-Filter + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Random particle Initialization without prior robot state knowledge**.
+3. Filter for state estimation:
+
+   **SIR-Filter (Condensation Filter) + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Random particle Initialization without prior robot state knowledge**.
 
    Please check my video for this filter under https://www.youtube.com/watch?v=3K34nm6k5rg.
 
@@ -55,5 +59,5 @@ Please read [the tutorial paper](https://www.mdpi.com/1424-8220/21/2/438) for mo
 ## Next challenges and tasks
 
 This repository is still running and my journey in researching the particle filter is also not finished. I want to face the following challenges in the future:
-1. Introduce the SIR-Filter in the Multiple Object Tracking project for state estimation instead of the Kalman filter. With particle filter, we no longer need to limit ourselves to linear process and measurement models for pedestrains on the street.
+1. Introduce the SIR-Filter in the [Multiple Object Tracking project](https://github.com/1996JCZhou/Multiple-Objects-Tracking) for state estimation instead of the Kalman filter. With particle filter, we no longer need to limit ourselves to linear process and measurement models for pedestrains on the street.
 2. Beside the Particle Degeneracy Problem, there are still challenges that must be addressed, like Sample Impoverishment, Particle Filter Divergence and Real Time Execution for real time usages.
