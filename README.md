@@ -14,11 +14,11 @@ The state estimation problem can be addressed by the particle filter as a Bayesi
 
 ![image](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/result.PNG)
 
-Please check my video for this filter under https://www.youtube.com/watch?v=DuiE1aSiS5E.
+Please check my video for this filter under:
 
-[![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/youtube2.PNG)](https://www.youtube.com/watch?v=DuiE1aSiS5E)
+1. https://www.youtube.com/watch?v=DuiE1aSiS5E
 
-[![Watch the video](https://github.com/1996JCZhou/Sampling-Importance-Resampling--SIR--Filter-for-State-Estimation/blob/master/images%20for%20Readme/youtube2.PNG)](https://www.youtube.com/watch?v=3K34nm6k5rg)
+2. https://www.youtube.com/watch?v=3K34nm6k5rg
 
 ## Requirements
 
