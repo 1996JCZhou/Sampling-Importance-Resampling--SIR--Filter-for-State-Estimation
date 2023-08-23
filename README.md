@@ -16,9 +16,14 @@ The state estimation problem can be addressed by the particle filter as a Bayesi
 
 Please check my **video** for this filter under:
 
-1. https://www.youtube.com/watch?v=DuiE1aSiS5E
+1. **SIR-Filter (Condensation Filter) + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) +
+   Particle Initialization with initial robot state**
 
-2. https://www.youtube.com/watch?v=3K34nm6k5rg
+   https://www.youtube.com/watch?v=DuiE1aSiS5E
+
+2. **SIR-Filter (Condensation Filter) + Max Weight Resampling (when to resample) + Stratified Sampling (how to resample) + Random particle Initialization without prior robot state knowledge**
+
+   https://www.youtube.com/watch?v=3K34nm6k5rg
 
 ## Requirements
 
